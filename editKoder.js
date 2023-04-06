@@ -6,11 +6,12 @@ const editKoderById = (id) => {
     if (error) throw error;
     data = JSON.parse(content);
     data["koders"].forEach((koder, index) => {
+      console.log(koder);
       if (id === koder.id) {
         let koderEdited = {
-          "id": koder.id,
+          ...koder,
           "name": "Edit :)",
-          "lastName": "Edit",
+          "lastName": "Edit :3",
           "Age": 20,
           "favoriteFood": "Edit"
         };
