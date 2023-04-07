@@ -1,3 +1,4 @@
+//3. Crear una funcion que permita eliminar a un koder por su id y guardar el archivo con el cambio realizado
 import fs from "fs";
 
 let data = {};

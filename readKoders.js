@@ -1,3 +1,4 @@
+//1. Crear una funcion que permita leer el archivo e imprimir en consola los koders
 import fs from 'fs';
 
 const read = () => {
@@ -5,5 +6,3 @@ const read = () => {
   if (error) throw error;
   console.log(content.toString());
 })};
-
-export { read };
