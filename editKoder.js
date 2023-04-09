@@ -1,8 +1,8 @@
 //5. Crear una funcion que permita editar a un koder por su id y guardar el archivo con el cambio realizado
 import fs from 'fs';
-let data = {};
 
 const editKoderById = (id) => {
+  let data = {};
   fs.readFile('koders.json', (error, content) => {
     if (error) throw error;
     data = JSON.parse(content);
@@ -10,10 +10,10 @@ const editKoderById = (id) => {
       if (id === koder.id) {
         let koderEdited = {
           ...koder,
-          "name": "Edit :)",
-          "lastName": "Edit :3",
-          "Age": 20,
-          "favoriteFood": "Edit"
+          //"name": "Edit :)",
+          //"lastName": "Edit :3",
+          //"Age": 20,
+          "favoriteFood": "test editado"
         };
         data["koders"].splice(index, 1, koderEdited);
       }
@@ -25,4 +25,4 @@ const editKoderById = (id) => {
   })
 };
 
-editKoderById(71)
+editKoderById(22)

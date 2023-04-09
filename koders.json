@@ -8,18 +8,32 @@
       "favoriteFood": "Algo rico x3"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "Alfredo",
       "lastName": "Mentor",
-      "Age": 20,
-      "favoriteFood": "Algo rico x3"
+      "Age": 26,
+      "favoriteFood": "pizza"
     },
     {
-      "id": 71,
-      "name": "Edit :)",
-      "lastName": "Edit :3",
-      "Age": 20,
-      "favoriteFood": "Edit"
+      "id": 58,
+      "name": "Jesús",
+      "lastName": "Mendoza",
+      "Age": 22,
+      "favoriteFood": "Pizza"
+    },
+    {
+      "id": 51,
+      "name": "Tets",
+      "lastName": "test",
+      "Age": 99,
+      "favoriteFood": "tets"
+    },
+    {
+      "id": 22,
+      "name": "Tets",
+      "lastName": "test",
+      "Age": 99,
+      "favoriteFood": "test editado"
     }
   ]
 }
