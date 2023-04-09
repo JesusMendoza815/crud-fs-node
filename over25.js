@@ -1,4 +1,4 @@
-//4. Crear una funcion que permita obtener a los koders que sean mayores de 25 años
+//4. Crear una funcion que permita obtener a los koders que sean MAYORES de 25 años
 import fs from "fs";
 
 const getKodersOlders25Years = () => {

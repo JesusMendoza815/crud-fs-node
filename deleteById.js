@@ -18,4 +18,4 @@ const deleteById = (id) => {
   })
 };
 
-deleteById(11);
+deleteById(22);

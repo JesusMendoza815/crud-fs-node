@@ -13,7 +13,7 @@ const editKoderById = (id) => {
           //"name": "Edit :)",
           //"lastName": "Edit :3",
           //"Age": 20,
-          "favoriteFood": "pizza"
+          "favoriteFood": "test editado"
         };
         data["koders"].splice(index, 1, koderEdited);
       }
@@ -25,4 +25,4 @@ const editKoderById = (id) => {
   })
 };
 
-editKoderById(26)
+editKoderById(22)

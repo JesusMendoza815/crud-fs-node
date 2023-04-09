@@ -6,3 +6,5 @@ const read = () => {
   if (error) throw error;
   console.log(content.toString());
 })};
+
+read();

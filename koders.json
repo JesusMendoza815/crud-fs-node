@@ -15,11 +15,25 @@
       "favoriteFood": "pizza"
     },
     {
-      "id": 71,
-      "name": "Edit :)",
-      "lastName": "Edit :3",
-      "Age": 20,
-      "favoriteFood": "Edit Food delicious"
+      "id": 58,
+      "name": "Jesús",
+      "lastName": "Mendoza",
+      "Age": 22,
+      "favoriteFood": "Pizza"
+    },
+    {
+      "id": 51,
+      "name": "Tets",
+      "lastName": "test",
+      "Age": 99,
+      "favoriteFood": "tets"
+    },
+    {
+      "id": 22,
+      "name": "Tets",
+      "lastName": "test",
+      "Age": 99,
+      "favoriteFood": "test editado"
     }
   ]
 }

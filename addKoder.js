@@ -3,10 +3,10 @@ import fs from 'fs';
 
 const koder = {
   "id": Math.round(Math.random() * 100),
-  "name": "Alfredo",
-  "lastName": "Mentor",
-  "Age": 29,
-  "favoriteFood": "Algo rico x3"
+  "name": "Tets",
+  "lastName": "test",
+  "Age": 99,
+  "favoriteFood": "tets"
 };
 
 let data = {};
