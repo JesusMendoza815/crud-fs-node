@@ -1,3 +1,4 @@
+//5. Crear una funcion que permita editar a un koder por su id y guardar el archivo con el cambio realizado
 import fs from 'fs';
 let data = {};
 
@@ -6,7 +7,6 @@ const editKoderById = (id) => {
     if (error) throw error;
     data = JSON.parse(content);
     data["koders"].forEach((koder, index) => {
-      console.log(koder);
       if (id === koder.id) {
         let koderEdited = {
           ...koder,
@@ -20,7 +20,7 @@ const editKoderById = (id) => {
     });
     fs.writeFile('koders.json', JSON.stringify(data, null, '  '), (error) => {
       if (error) throw error;
-      console.log('Koder eliminado');
+      console.log('Koder editado');
     });
   })
 };

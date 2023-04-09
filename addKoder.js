@@ -1,5 +1,5 @@
+//2. Crear una funcion que permita agregar un Koder y guardar el arhico con el cambio realizado
 import fs from 'fs';
-import { read } from './readKoders.js';
 
 const koder = {
   "id": Math.round(Math.random() * 100),
