@@ -8,18 +8,18 @@
       "favoriteFood": "Algo rico x3"
     },
     {
-      "id": 25,
+      "id": 26,
       "name": "Alfredo",
       "lastName": "Mentor",
-      "Age": 20,
-      "favoriteFood": "Algo rico x3"
+      "Age": 26,
+      "favoriteFood": "pizza"
     },
     {
       "id": 71,
       "name": "Edit :)",
       "lastName": "Edit :3",
       "Age": 20,
-      "favoriteFood": "Edit"
+      "favoriteFood": "Edit Food delicious"
     }
   ]
 }
